@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="248" height="248" src="https://cdn.discordapp.com/attachments/978010655682617394/1018902132843356278/download_2.png">
+  <img width="248" height="248" src="https://cdn.discordapp.com/attachments/978010655682617394/1018903437120897054/download__2_-removebg-preview_1.png">
 </p>
 
 # 🍺 Nitrous Proxies | Proxy Scraper
