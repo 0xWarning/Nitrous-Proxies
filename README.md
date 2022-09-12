@@ -1,6 +1,3 @@
-# Nitrous-Proxies
- Basic Threaded Proxy Scraper Source
-
 <p align="center">
   <img width="248" height="248" src="https://cdn.discordapp.com/attachments/978010655682617394/1018902132843356278/download_2.png">
 </p>
