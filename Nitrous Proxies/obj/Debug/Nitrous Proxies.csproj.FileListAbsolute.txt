@@ -1,0 +1,14 @@
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\bin\Debug\Nitrous Proxies.exe.config
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\bin\Debug\Nitrous Proxies.exe
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\bin\Debug\Nitrous Proxies.pdb
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\bin\Debug\FlatUI.dll
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\bin\Debug\FlatUI.pdb
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\obj\Debug\Nitrous Proxies.csproj.AssemblyReference.cache
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\obj\Debug\Nitrous Proxies.csproj.SuggestedBindingRedirects.cache
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\obj\Debug\Nitrous_Proxies.Form1.resources
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\obj\Debug\Nitrous_Proxies.Properties.Resources.resources
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\obj\Debug\Nitrous Proxies.csproj.GenerateResource.cache
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\obj\Debug\Nitrous Proxies.csproj.CoreCompileInputs.cache
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\obj\Debug\Nitrous Proxies.csproj.CopyComplete
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\obj\Debug\Nitrous Proxies.exe
+C:\Users\0xwar\source\repos\Nitrous Proxies\Nitrous Proxies\obj\Debug\Nitrous Proxies.pdb
