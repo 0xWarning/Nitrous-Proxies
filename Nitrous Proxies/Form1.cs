@@ -342,6 +342,11 @@ namespace Nitrous_Proxies
 
         }
 
+        private void flatRadioButton1_CheckedChanged(object sender)
+        {
+
+        }
+
         private void flatGroupBox6_Click(object sender, EventArgs e)
         {
 

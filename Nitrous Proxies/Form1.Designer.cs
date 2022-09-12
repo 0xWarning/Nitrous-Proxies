@@ -54,6 +54,7 @@
             this.flatClose1 = new FlatUI.FlatClose();
             this.flatStatusBar1 = new FlatUI.FlatStatusBar();
             this.backgroundGatherer = new System.ComponentModel.BackgroundWorker();
+            this.flatLabel4 = new FlatUI.FlatLabel();
             this.formSkin1.SuspendLayout();
             this.flatTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -262,6 +263,7 @@
             this.flatRadioButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(35)))), ((int)(((byte)(63)))));
             this.flatRadioButton3.Checked = false;
             this.flatRadioButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.flatRadioButton3.Enabled = false;
             this.flatRadioButton3.Font = new System.Drawing.Font("Tahoma", 10F);
             this.flatRadioButton3.Location = new System.Drawing.Point(156, 157);
             this.flatRadioButton3.Name = "flatRadioButton3";
@@ -298,6 +300,7 @@
             // 
             this.flatGroupBox2.BackColor = System.Drawing.Color.Transparent;
             this.flatGroupBox2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(35)))), ((int)(((byte)(63)))));
+            this.flatGroupBox2.Controls.Add(this.flatLabel4);
             this.flatGroupBox2.Controls.Add(this.flatRadioButton1);
             this.flatGroupBox2.Controls.Add(this.flatRadioButton2);
             this.flatGroupBox2.Font = new System.Drawing.Font("Tahoma", 10F);
@@ -311,8 +314,9 @@
             // flatRadioButton1
             // 
             this.flatRadioButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(35)))), ((int)(((byte)(63)))));
-            this.flatRadioButton1.Checked = true;
+            this.flatRadioButton1.Checked = false;
             this.flatRadioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.flatRadioButton1.Enabled = false;
             this.flatRadioButton1.Font = new System.Drawing.Font("Tahoma", 10F);
             this.flatRadioButton1.Location = new System.Drawing.Point(21, 37);
             this.flatRadioButton1.Name = "flatRadioButton1";
@@ -320,12 +324,14 @@
             this.flatRadioButton1.Size = new System.Drawing.Size(54, 22);
             this.flatRadioButton1.TabIndex = 25;
             this.flatRadioButton1.Text = "HTTP";
+            this.flatRadioButton1.CheckedChanged += new FlatUI.FlatRadioButton.CheckedChangedEventHandler(this.flatRadioButton1_CheckedChanged);
             // 
             // flatRadioButton2
             // 
             this.flatRadioButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(35)))), ((int)(((byte)(63)))));
             this.flatRadioButton2.Checked = false;
             this.flatRadioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.flatRadioButton2.Enabled = false;
             this.flatRadioButton2.Font = new System.Drawing.Font("Tahoma", 10F);
             this.flatRadioButton2.Location = new System.Drawing.Point(81, 37);
             this.flatRadioButton2.Name = "flatRadioButton2";
@@ -424,6 +430,18 @@
             this.backgroundGatherer.WorkerSupportsCancellation = true;
             this.backgroundGatherer.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundGatherer_DoWork);
             // 
+            // flatLabel4
+            // 
+            this.flatLabel4.AutoSize = true;
+            this.flatLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.flatLabel4.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.flatLabel4.ForeColor = System.Drawing.Color.Gray;
+            this.flatLabel4.Location = new System.Drawing.Point(101, 16);
+            this.flatLabel4.Name = "flatLabel4";
+            this.flatLabel4.Size = new System.Drawing.Size(79, 17);
+            this.flatLabel4.TabIndex = 30;
+            this.flatLabel4.Text = "Mixed Only!";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -446,6 +464,7 @@
             this.flatGroupBox1.ResumeLayout(false);
             this.flatGroupBox1.PerformLayout();
             this.flatGroupBox2.ResumeLayout(false);
+            this.flatGroupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -478,6 +497,7 @@
         private FlatUI.FlatGroupBox flatGroupBox7;
         private FlatUI.FlatButton flatButton2;
         private FlatUI.FlatRadioButton flatRadioButton3;
+        private FlatUI.FlatLabel flatLabel4;
     }
 }
 
